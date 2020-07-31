@@ -11,6 +11,7 @@ end
 def assign_rooms(attendees)
   attendees.each_with_index do |name, number|
     assignments = "Hello, #{name}! You'll be assigned to room #{number}!"
+    binding.pry
   end
 end
 
