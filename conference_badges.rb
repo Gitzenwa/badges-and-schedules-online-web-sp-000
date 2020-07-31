@@ -13,7 +13,7 @@ def assign_rooms(attendees)
     assignments = "Hello, #{name}! You'll be assigned to room #{number}!"
   end
     rooms = []
-    assignments.collect {|y| }
+    assignments.collect {|y| rooms << y }
   end
 end
 
