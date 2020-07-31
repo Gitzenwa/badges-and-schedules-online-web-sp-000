@@ -5,3 +5,6 @@ end
 
 def conference_badges
 end
+
+def batch_badge_creator
+end
