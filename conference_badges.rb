@@ -9,8 +9,10 @@ end
 
 def assign_rooms(attendees)
   room = 1
-  "Hello,#{ _____}! You'll be assigned to room #{_____}!"
+  attendees.collect {
+  "Hello,#{attendees}! You'll be assigned to room #{room}!"
   room += 1
+}
 end
 
 def printer
