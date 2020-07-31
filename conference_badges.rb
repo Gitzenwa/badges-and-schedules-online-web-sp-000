@@ -11,3 +11,6 @@ end
 
 def assign_rooms
 end
+
+def printere
+end
