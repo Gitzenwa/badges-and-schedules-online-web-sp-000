@@ -15,7 +15,6 @@ def assign_rooms(attendees)
     rooms = []
     assignments.collect {|y| rooms << y }
     rooms
-  end
 end
 
 def printer
