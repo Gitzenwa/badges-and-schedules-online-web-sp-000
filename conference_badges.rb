@@ -9,7 +9,7 @@ end
 
 def assign_rooms(attendees)
   attendees.each_with_index do |name, number|
-    "Hello, #{name}! You'll be assigned to room #{number}!"
+    puts "Hello, #{name}! You'll be assigned to room #{number}!"
   end
 
 end
